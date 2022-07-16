@@ -136,8 +136,22 @@ body {
 /* INDEX  */
 /* hero  */
 .hero {
-  background-color: var(--addition-bg-color);
+  padding: 200px 452px;
   text-align: center;
+
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/effective_decisions.jpg);
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -219,6 +233,34 @@ body {
 .advatages-list .text {
   font-size: 14px;
   line-height: 1.7;
+}
+
+.advatages-list .item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.icon-anthena::before {
+  background-image: url(../images/antenna\ 1.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../images/clock\ 1.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../images/diagram\ 1.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/astronaut\ 1.svg);
 }
 
 /* works */
@@ -348,6 +390,7 @@ body {
 }
 
 .sm-item {
+  display: block;
   color: rgba(255, 255, 255, 0.6);
   margin-right: 10px;
 }
@@ -356,9 +399,36 @@ body {
   margin-right: 0px;
 }
 
+.sm-item:before {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: block;
+  content: "";
+  width: 44px;
+  height: 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.icon-instagram::before {
+  background-image: url(../images/instagram.svg);
+}
+
+.icon-twitter::before {
+  background-image: url(../images/twitter.svg);
+}
+
+.icon-facebook::before {
+  background-image: url(../images/facebook.svg);
+}
+.icon-linkedin::before {
+  background-image: url(../images/linkedin.svg);
+}
+
 .sm-item:hover,
 .sm-item:focus {
-  color: var(--alternative-color);
+  background-color: var(--alternative-color);
+  border-radius: 50%;
 }
 
 /* PORTFOLIO  */
