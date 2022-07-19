@@ -146,7 +146,8 @@ body {
 /* INDEX  */
 /* hero  */
 .hero {
-  padding: 200px 452px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 
   background-color: #c4c4c4;
@@ -279,6 +280,10 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-photo {
+  margin-bottom: 30px;
+}
+
 .team-list .title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -377,12 +382,18 @@ body {
   font-style: normal;
 }
 
+.footer-adr {
+  color: #ffffff;
+}
+
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contacts:hover,
-.footer-contacts:focus {
+.footer-contacts:focus,
+.footer-adr:hover,
+.footer-adr:focus {
   color: var(--alternative-color);
 }
 
