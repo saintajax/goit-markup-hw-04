@@ -104,6 +104,10 @@ body {
   color: var(--alternative-color);
 }
 
+.site-nav .active {
+  color: var(--alternative-color);
+}
+
 /*  contacts */
 
 .contacts-list {
@@ -175,6 +179,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -384,10 +389,12 @@ body {
 
 .footer-adr {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .footer-contacts:hover,
@@ -461,6 +468,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  font-family: inherit;
   cursor: pointer;
 }
 
